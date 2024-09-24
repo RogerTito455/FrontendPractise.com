@@ -20,6 +20,9 @@ a {
     text-decoration: none;
     color: white;
 }
+button {
+    cursor: pointer;
+}
 ul {
     list-style-type: none;
 }
@@ -76,6 +79,10 @@ ul {
     background-color: #4C5FD5;   
     border: none;
     color: white;
+    transition: all 0.3s ease;
+}
+.button--blue:hover {
+    background-color: #6775ce;
 }
 .button:nth-child(2) {
     padding: 0.8rem 2rem;
